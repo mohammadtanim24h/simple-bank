@@ -4,6 +4,8 @@
 
 // better explained in the video 7, 8 and 9. so i should better watch them for explanation
 
+// module 27 er first 4 ta video te abar eita dekhano hoise. aro better explain kora hoise.
+
 // // deposit-button e click korle jate input er value ta ashe eijonno ekhane deposit-field re id dia dhoira nia aisha depositField namer variable declare korsi. jehetu deposit-field er input field e ami jeta input dicchi oita new deposit tai depositField er value ke niye newDepositAmount namer ekta variable declare korsi. tarpor deposit-total ke id dia nia aisha depositTotal e declare korsi. karon eitai amar total deposit. Prottekbar new deposit add korle ei total deposit tai previous deposit hoye jabe tai previousDepositAmount er moddhe depositTotal.innertext assign korsi. lastly newDepositTotal namer ekta variable declare korsi jeitar value holo previousDepositAmount + newDepositAmount. and eigula jehetu string tai eigula ke number e convert korsi parseFloat diye and jug korsi. ei depositTotal.innerText = newDepositTotal diye depositTotal er value update kore dicchi. 
 
 document.getElementById('deposit-button').addEventListener('click', function () {
